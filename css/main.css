@@ -18,6 +18,11 @@ header {
   display: block;
 }
 
+strike {
+  color: gray;
+  font-size: 12px;
+}
+
 ul li {
   list-style: none;
   padding: 0;
@@ -693,6 +698,10 @@ h2.title:before {
   padding-bottom: 20px;
 }
 
+.footer-amazon {
+  color: darkblue;
+}
+
 .companyinfo {
   margin-top: 57px;
 }
@@ -706,10 +715,11 @@ h2.title:before {
 
 .companyinfo h2 span {
   color: #FF6666;
+
 }
 
 .companyinfo p {
-  color: #B3B3AD;
+  color: #575151;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 300;
@@ -1052,11 +1062,14 @@ h2.title:before {
   overflow: hidden;
 }
 
+section .container .features_items .transparent-box a {
+  text-decoration: none !important;
+}
 
 h2.title {
-  color: #FF6666;
+  color: #002651;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0 15px;
   text-transform: uppercase;
@@ -1064,10 +1077,31 @@ h2.title {
   position: relative;
 }
 
+.transparent-box {
+  padding: 0 9px;
+  height: 100%;
+}
+
+
+
+.box-inner {
+  padding: 2px;
+
+}
+
+
+
 .product-image-wrapper {
   border: 1px solid #F7F7F5;
   overflow: hidden;
   margin-bottom: 30px;
+}
+
+.product-image-wrapper:hover {
+  border: 1.5px solid #cefff1;
+  border-radius: 5%;
+
+  padding: 5px;
 }
 
 .single-products {
@@ -1082,10 +1116,10 @@ h2.title {
 }
 
 .productinfo h2 {
-  color: #FF6666;
-  font-family: 'Roboto', sans-serif;
+  color: #ff304f;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .product-overlay h2 {
@@ -1103,13 +1137,19 @@ h2.title {
   color: #696763;
 }
 
+.productinfo p:hover {
+  color: red;
+}
+
 .productinfo img {
   width: 100%;
 }
 
 .productinfo {
   position: relative;
+
 }
+
 
 .product-overlay {
   background: #FF6666;
