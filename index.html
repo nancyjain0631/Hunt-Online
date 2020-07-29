@@ -27,6 +27,9 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<!-- end favicon shortcut icon -->
+	<!-- swwiper js -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <!--/head-->
 
@@ -125,210 +128,29 @@
 		<!-- / header bottom  -->
 	</header>
 	<!-- / header section -->
-	<!-- menu -->
-	<!-- <section id="menu">
-		<div class="container">
-			<div class="menu-area">
-				
-	<div class="navbar navbar-default" role="navigation">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+	<!-- start swiper js -->
+	<!-- Slider main container -->
+	<div class="swiper-container">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div class="swiper-slide">Slide 1</div>
+			<div class="swiper-slide">Slide 2</div>
+			<div class="swiper-slide">Slide 3</div>
+			...
 		</div>
-		<div class="navbar-collapse collapse">
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
 
-			<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Men <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Casual</a></li>
-						<li><a href="#">Sports</a></li>
-						<li><a href="#">Formal</a></li>
-						<li><a href="#">Standard</a></li>
-						<li><a href="#">T-Shirts</a></li>
-						<li><a href="#">Shirts</a></li>
-						<li><a href="#">Jeans</a></li>
-						<li><a href="#">Trousers</a></li>
-						<li><a href="#">And more.. <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Sleep Wear</a></li>
-								<li><a href="#">Sandals</a></li>
-								<li><a href="#">Loafers</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="#">Women <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Kurta & Kurti</a></li>
-						<li><a href="#">Trousers</a></li>
-						<li><a href="#">Casual</a></li>
-						<li><a href="#">Sports</a></li>
-						<li><a href="#">Formal</a></li>
-						<li><a href="#">Sarees</a></li>
-						<li><a href="#">Shoes</a></li>
-						<li><a href="#">And more.. <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Sleep Wear</a></li>
-								<li><a href="#">Sandals</a></li>
-								<li><a href="#">Loafers</a></li>
-								<li><a href="#">And more.. <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Rings</a></li>
-										<li><a href="#">Earrings</a></li>
-										<li><a href="#">Jewellery Sets</a></li>
-										<li><a href="#">Lockets</a></li>
-										<li class="disabled"><a class="disabled" href="#">Disabled item</a>
-										</li>
-										<li><a href="#">Jeans</a></li>
-										<li><a href="#">Polo T-Shirts</a></li>
-										<li><a href="#">SKirts</a></li>
-										<li><a href="#">Jackets</a></li>
-										<li><a href="#">Tops</a></li>
-										<li><a href="#">Make Up</a></li>
-										<li><a href="#">Hair Care</a></li>
-										<li><a href="#">Perfumes</a></li>
-										<li><a href="#">Skin Care</a></li>
-										<li><a href="#">Hand Bags</a></li>
-										<li><a href="#">Single Bags</a></li>
-										<li><a href="#">Travel Bags</a></li>
-										<li><a href="#">Wallets & Belts</a></li>
-										<li><a href="#">Sunglases</a></li>
-										<li><a href="#">Nail</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="#">Kids <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Casual</a></li>
-						<li><a href="#">Sports</a></li>
-						<li><a href="#">Formal</a></li>
-						<li><a href="#">Standard</a></li>
-						<li><a href="#">T-Shirts</a></li>
-						<li><a href="#">Shirts</a></li>
-						<li><a href="#">Jeans</a></li>
-						<li><a href="#">Trousers</a></li>
-						<li><a href="#">And more.. <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Sleep Wear</a></li>
-								<li><a href="#">Sandals</a></li>
-								<li><a href="#">Loafers</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="#">Sports</a></li>
-				<li><a href="#">Digital <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Camera</a></li>
-						<li><a href="#">Mobile</a></li>
-						<li><a href="#">Tablet</a></li>
-						<li><a href="#">Laptop</a></li>
-						<li><a href="#">Accesories</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Furniture</a></li>
-				<li><a href="blog-archive.html">Blog <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="blog-archive.html">Blog Style 1</a></li>
-						<li><a href="blog-archive-2.html">Blog Style 2</a></li>
-						<li><a href="blog-single.html">Blog Single</a></li>
-					</ul>
-				</li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="#">Pages <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="product.html">Shop Page</a></li>
-						<li><a href="product-detail.html">Shop Single</a></li>
-						<li><a href="404.html">404 Page</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
 
+		<!-- If we need scrollbar -->
+		<div class="swiper-scrollbar"></div>
 	</div>
-	</div>
-	</div>
-	</section>-->
-	<section id="slider">
-		<!--slider-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-						</ol>
+	<!-- end swiper js -->
 
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>Hunt</span>-Online</h1>
-									<h2>Best E-Commerce Website</h2>
-									<p>Are you worried in this Covid-19 Situation?<br>Hunt-Online is the best place you
-										are looking for great
-										discounts on all products from No.1 trusted e-commerce website</p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png" class="pricing" alt="" />
-								</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>Hunt</span>-Online</h1>
-									<h2>100% Quality Products</h2>
-									<p>We the team of Hunt-Online ensures every customer the 100% quality on all our
-										products with great deals and
-										offers </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png" class="pricing" alt="" />
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>Hunt</span>-Online</h1>
-									<h2>Great Deals and Offers</h2>
-									<p>Hunt-Online brings you huge discount and big deals on every product so that no
-										such deal will be missed by
-										our customers </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png" class="pricing" alt="" />
-								</div>
-							</div>
-
-						</div>
-
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--/slider-->
 
 
 
@@ -1419,6 +1241,9 @@
 	<script src="js/price-range.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
 	<script src="js/main.js"></script>
+	<!-- swiper js -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
