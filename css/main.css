@@ -41,7 +41,7 @@ a:focus {
 
 section {
   padding-top: 30px;
-  ;
+
 }
 
 h1,
@@ -528,8 +528,13 @@ img {
 
 
 /* enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+.slider-container {
+  max-width: 90vw;
+  max-height: 80vh;
+  margin: 0 auto;
+}
 
-#slider {
+/* #slider {
   padding-bottom: 45px;
 }
 
@@ -612,7 +617,7 @@ img {
 
 .right {
   right: 0;
-}
+} */
 
 .category-products {
   border: 1px solid #F7F7F0;
