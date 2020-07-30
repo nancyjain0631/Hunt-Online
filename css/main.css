@@ -902,7 +902,9 @@ h2.title:before {
 
 .panel-group .panel-heading+.panel-collapse .panel-body {
   border-top: 0 none;
+
 }
+
 
 .category-products .badge {
   background: none;
