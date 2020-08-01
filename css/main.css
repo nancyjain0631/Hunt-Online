@@ -764,11 +764,19 @@ h2.title:before {
 }
 
 .aboutinfo h2 {
-  color: #ff6666;
-  font-size: 25px;
-  margin: 0 175px;
-  text-transform: capitalize;
+
+  font-size: 15px;
+  margin: 10px 65px;
+  display: inline-block;
+  text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+}
+
+.aboutinfo h2 a {
+  text-decoration: none;
+  color: #ff6666;
 }
 
 .footer-amazon {
@@ -784,24 +792,28 @@ h2.title:before {
 }
 
 .social-links a {
-  height: 35px;
-  width: 35px;
+
   display: inline-block;
-  text-align: center;
-  line-height: 35px;
+  /* text-align: center; */
+  /* line-height: 35px; */
   color: #ffffff;
   margin: 0 5px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-size: 30px;
+  font-size: 18px;
+}
+
+.social-links .fa-star {
+  font-size: 10px;
+  color: #e2f3f5;
 }
 
 .social-links a:hover {
   color: #ff304f;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  /* -webkit-transform: scale(1.1);
+  transform: scale(1.1); */
 }
 
 .video-gallery {
