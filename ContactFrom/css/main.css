@@ -190,10 +190,33 @@ iframe {
 [ Text ]*/
 .txt1 {
   font-family: Poppins-Regular;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.2;
   color: #fff;
 }
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}
+
+a .fa:hover {
+  color: #46c3db;
+  text-decoration: none;
+}
+
+/* a .fa-pinterest:hover {
+  color: #BD081C;
+}
+
+a .fa-instagram:hover {
+  color: #E1306C;
+}
+
+a .fa-mail:hover {
+  color: #08851b;
+} */
 
 .txt2 {
   font-family: Poppins-Regular;
