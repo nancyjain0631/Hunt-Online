@@ -720,7 +720,7 @@ h2.title:after {
   z-index: -2;
 }
 
-.left-sidebar h2:before {
+/* .left-sidebar h2:before {
   content: " ";
   position: absolute;
   background: #fff;
@@ -730,7 +730,7 @@ h2.title:after {
   z-index: -1;
   left: 50%;
   margin-left: -65px;
-}
+} */
 
 h2.title:before {
   content: " ";
