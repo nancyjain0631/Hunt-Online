@@ -33035,7 +33035,7 @@ a.u-link.u-text-hover-body-color:hover {
 .u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
-  color: #FF6666 !important;
+  /* color: #FF6666 !important; */
 }
 
 a.u-button-style.u-text-body-alt-color:hover,
@@ -34130,7 +34130,8 @@ blockquote {
 
 .u-header .u-logo-image-1 {
   max-width: 100px;
-  max-height: 100px
+  max-height: 100px;
+  margin-top: 5px;
 }
 
 .u-header .u-menu-1 {
