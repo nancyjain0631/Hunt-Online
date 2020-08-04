@@ -265,7 +265,10 @@ img {
 }
 
 #aa-header .aa-header-top .col-md-6 .cashback {
+  height: 125px;
+  width: 125px;
   margin-left: 400px;
+  border-radius: 5%;
 
 }
 
@@ -307,6 +310,10 @@ img {
 
 }
 
+#aa-header .aa-header-top .aa-header-top-area .aa-logo a .img-logo {
+  height: 120px;
+  width: 120px;
+}
 
 
 #aa-header .aa-header-top .aa-header-top-area .aa-logo a p {
@@ -370,6 +377,10 @@ img {
   min-height: auto;
 }
 
+#menu .menu-area .navbar-default .navbar-header {
+  margin-right: 100px;
+}
+
 #menu .menu-area .navbar-default .navbar-nav {
   display: inline-block;
   /* float: left; */
@@ -419,6 +430,8 @@ img {
   padding: 3px 20px;
   text-transform: uppercase;
 }
+
+
 
 /* ALL SECTION */
 /*scrol to top*/
@@ -752,13 +765,15 @@ h2.title:before {
 
 
 .companyinfo,
-.aboutinfo {
+.aboutinfo,
+.aboutinfos {
   margin-top: 57px;
 
 }
 
 .companyinfo h2,
-.aboutinfo h2 {
+.aboutinfo h2,
+.aboutinfos h2 {
   color: #FF6666;
   /* font-family: abel; */
   font-size: 27px;
@@ -775,8 +790,9 @@ h2.title:before {
 
 .aboutinfo h2 {
 
-  font-size: 15px;
-  margin: 10px 15px;
+  font-size: 12px;
+
+  margin: 10px 55px;
   display: block;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -784,10 +800,24 @@ h2.title:before {
 
 }
 
+.aboutinfos h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.aboutinfos h2 a {
+  text-decoration: none;
+  color: #ff6666;
+}
+
 .aboutinfo h2 a {
   text-decoration: none;
   color: #ff6666;
 }
+
+
 
 .footer-amazon {
   color: #FF6666;
@@ -798,22 +828,29 @@ h2.title:before {
 }
 
 .social-links {
-  margin-top: 60px;
-  margin-left: 60px;
+  margin-top: 55px;
+  margin-left: 20px;
+}
+
+.social-links h2 {
+  font-size: 14px;
+  color: #ff6666;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .social-links a {
 
-  display: inline-block;
+  display: block;
   /* text-align: center; */
   /* line-height: 35px; */
   color: #ffffff;
-  margin: 0 5px;
+  margin: 0 35px;
   /* border-radius: 50%; */
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .social-links .fa-star {
