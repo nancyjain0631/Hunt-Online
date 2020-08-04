@@ -264,6 +264,11 @@ img {
   padding: 10px 0;
 }
 
+#aa-header .aa-header-top .col-md-6 .cashback {
+  margin-left: 400px;
+
+}
+
 #aa-header .aa-header-top .aa-header-top-area {
   width: 100%;
 }
@@ -771,8 +776,8 @@ h2.title:before {
 .aboutinfo h2 {
 
   font-size: 15px;
-  margin: 10px 65px;
-  display: inline-block;
+  margin: 10px 15px;
+  display: block;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -1351,7 +1356,7 @@ h2.title {
   background: #ccccc6;
 }
 
-.recommended_items h2 {}
+/* .recommended_items h2 {} */
 
 .swiper-container {
   width: 100%;
@@ -1362,6 +1367,7 @@ h2.title {
   text-align: center;
   font-size: 18px;
   background: #fff;
+
 
   /* Center slide text vertically */
   display: -webkit-box;
