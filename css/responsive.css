@@ -50,7 +50,7 @@
 
 	section .container-fluid .special-section .specials img.img-left,
 	section .container-fluid .special-section .specials img.img-right {
-		margin-right: 15px;
+		margin-right: 15px !important;
 	}
 
 	section .container-fluid .special-section .specials img {
@@ -82,7 +82,7 @@
 
 	.banner-prime .container .banner-img {
 		height: 290px;
-		width: 640px;
+		width: 640px !important;
 		background-image: url("../assets/prime_member.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -138,7 +138,7 @@
 
 	section .container-fluid .special-section .specials img.img-left,
 	section .container-fluid .special-section .specials img.img-right {
-		margin-right: 20px;
+		margin-right: 20px !important;
 	}
 
 	section .container-fluid .special-section .specials img {
@@ -200,18 +200,23 @@
 		font-size: 15px;
 	}
 
+	h2 {
+		padding-bottom: 5px;
+
+	}
+
 	.companyinfo h2,
 	.aboutinfo h2,
 	.aboutinfos h2 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.aboutinfo h2 {
-		margin: 5px 35px;
+		margin: 3px 25px;
 	}
 
 	.aboutinfos h2 {
-		margin: 5px 0px;
+		margin: 3px 0px;
 	}
 
 	.companyinfo p {
@@ -238,7 +243,283 @@
 	}
 }
 
-@media (max-width:768px) {}
+@media (max-width:425px) {
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo {
+		margin-top: 0px;
+		margin-left: 100px;
+	}
+
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo a {
+		font-size: 20px;
+	}
+
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo a .img-logo {
+		height: 55px;
+		width: 55px;
+	}
+
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p {
+
+		font-size: 20px;
+	}
+
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p strong {
+		font-size: 22px;
+	}
+
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p span {
+		font-size: 12px;
+	}
+
+	#aa-header .aa-header-top .right {
+		display: none;
+	}
+
+	#menu .menu-area .navbar-default .navbar-header {
+
+		margin-left: 300px;
+	}
+
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+
+		background: #000;
+		/* margin-left: 300px; */
+
+	}
+
+	#menu .menu-area .navbar-default .navbar-nav li a {
+		font-size: 12px;
+		padding: 2px 8px;
+	}
+
+	section .container-fluid {
+		padding: 0px 50px;
+	}
+
+	.container-fluid .special-section .specials img {
+		height: 220px !important;
+		width: 240px !important;
+	}
+
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right,
+	section .container-fluid .special-section .specials img {
+		margin: 10px 55px;
+
+	}
+
+	section .container-fluid .special-section .specials .extra {
+		height: 220px !important;
+		width: 240px !important;
+		margin: 10px 55px;
+		background-image: url("../assets/home/Cashback.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		border: 1px solid #000;
+
+	}
+
+	section .container .row .col-sm-3 {
+		display: none;
+	}
+
+	.feature_items h2 .row .col-lg-3 {
+		margin: 10px 50px;
+	}
+
+	/* .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12 {
+		margin: 5px 60px;
+		padding: 50px;
+		padding-left: 15px;
+	} */
+	.resp {
+		margin-left: 11rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.left-sidebar h2:after,
+	h2.title:after {
+
+		bottom: 1px;
+	}
+
+	.banner-prime .container {
+		margin: 5px 5px !important;
+	}
+
+	.banner-prime .container .banner-img {
+		height: 200px;
+		width: 700px !important;
+	}
+
+	.recommended_items {
+		display: none;
+	}
+
+	.companyinfo,
+	.aboutinfo {
+		margin-top: 30px;
+	}
+
+	.aboutinfos {
+		margin-top: 0px;
+	}
+
+	.companyinfo h2,
+	.aboutinfo h2,
+	.aboutinfos h2 {
+		font-size: 16px;
+		margin-left: 150px;
+	}
+
+	.companyinfo p {
+		font-size: 11px;
+		margin: 0px 30px;
+	}
+
+	.social-links {
+		margin-top: 30px;
+		margin-left: 140px;
+	}
+
+	.social-links h2 {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:375px) {
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo {
+		margin-top: 0px;
+		margin-left: 80px;
+	}
+
+	#menu .menu-area .navbar-default .navbar-header {
+		margin-left: 270px;
+	}
+
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right,
+	section .container-fluid .special-section .specials img {
+		margin: 10px 35px;
+	}
+
+	section .container-fluid .special-section .specials .extra {
+		margin: 10px 35px;
+	}
+
+	.resp {
+		margin-left: 8rem;
+	}
+
+	.banner-prime {
+		display: none;
+	}
+
+	.companyinfo,
+	.aboutinfo {
+		margin-top: 20px;
+	}
+
+	.companyinfo h2,
+	.aboutinfo h2,
+	.aboutinfos h2 {
+		font-size: 14px;
+		margin-left: 120px;
+	}
+
+	.companyinfo p {
+		font-size: 10px;
+	}
+
+	.social-links {
+		margin-top: 10px;
+		margin-left: 110px;
+	}
+
+	.social-links h2 {
+		font-size: 12px;
+	}
+
+	.footer-bottom p {
+		font-size: 10px;
+	}
+}
+
+@media (max-width:320px) {
+	#aa-header .aa-header-top .aa-header-top-area .aa-logo {
+		margin-top: 0px;
+		margin-left: 50px;
+	}
+
+	#menu .menu-area .navbar-default .navbar-header {
+		margin-left: 210px;
+	}
+
+
+
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right,
+	section .container-fluid .special-section .specials img {
+		margin: 5px 30px;
+	}
+
+	.container-fluid .special-section .specials img {
+		height: 140px !important;
+		width: 170px !important;
+	}
+
+	section .container-fluid .special-section .specials .extra {
+		margin: 5px 30px;
+		height: 140px !important;
+		width: 170px !important;
+	}
+
+	.resp {
+		margin-left: 6rem;
+	}
+
+	.banner-prime {
+		display: none;
+	}
+
+	.companyinfo,
+	.aboutinfo {
+		margin-top: 10px;
+	}
+
+	.companyinfo h2,
+	.aboutinfo h2,
+	.aboutinfos h2 {
+		font-size: 12px;
+		margin-left: 105px;
+	}
+
+	.aboutinfo h2,
+	.aboutinfos h2 {
+		margin-left: 90px;
+	}
+
+	.companyinfo p {
+		font-size: 10px;
+		margin: 0px 20px;
+	}
+
+	.social-links {
+		margin-top: 0px;
+		margin-left: 90px;
+	}
+
+	.social-links h2 {
+		font-size: 12px;
+	}
+
+	.footer-bottom p {
+		font-size: 10px;
+	}
+}
+
 
 /* 
 @media (min-width: 1200px) {
