@@ -19,6 +19,8 @@ body {
   background-size: cover; */
 }
 
+
+
 header {
   display: block;
 }
@@ -575,6 +577,7 @@ img {
   max-width: 90vw;
   max-height: 80vh;
   margin: 0 auto;
+  margin-top: 250px;
 }
 
 /* #slider {
@@ -1095,6 +1098,10 @@ h2.title:before {
 
 .features_items {
   overflow: hidden;
+}
+
+.features_items .row {
+  margin: 15px;
 }
 
 section .container .features_items .transparent-box a {
