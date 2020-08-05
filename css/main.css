@@ -682,13 +682,14 @@ section .container-fluid .special-section .specials a {
 }
 
 section .container-fluid .special-section .specials img {
-  height: 450px;
-  width: 480px;
+  height: 300px;
+  width: 330px;
   border: 2px solid #000;
 }
 
-section .container-fluid .special-section .specials img.img-left {
-  margin-right: 150px;
+section .container-fluid .special-section .specials img.img-left,
+section .container-fluid .special-section .specials img.img-right {
+  margin-right: 40px;
 }
 
 .category-products {
