@@ -577,7 +577,7 @@ img {
   max-width: 90vw;
   max-height: 80vh;
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 70px;
 }
 
 /* #slider {
@@ -705,6 +705,7 @@ section .container-fluid .special-section .specials img.img-left {
   font-size: 20px;
   font-weight: 700;
   margin: 0 auto 30px;
+  margin-top: 10px;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -1115,7 +1116,8 @@ h2.title {
   font-weight: 700;
   margin: 0 15px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -1404,7 +1406,8 @@ h2.title {
 
 .swiper-container {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 310px;
 }
 
 .swiper-slide {
