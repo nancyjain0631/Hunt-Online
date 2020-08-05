@@ -1,3 +1,25 @@
+@media (max-width:1440px) {
+
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right {
+		margin-right: 70px;
+	}
+
+	section .container-fluid .special-section .specials img {
+		height: 320px;
+		width: 350px;
+	}
+
+	.banner-prime .container {
+		margin: 0px 35px !important;
+	}
+
+	.banner-prime .container .banner-img {
+
+		width: 1320px;
+	}
+}
+
 @media (max-width:1024px) {
 	.container {
 		margin: 2px 0px;
@@ -26,15 +48,19 @@
 		padding: 8px 12px;
 	}
 
-	section .container-fluid .special-section .specials img.img-left {
-		margin-right: 30px;
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right {
+		margin-right: 15px;
 	}
 
 	section .container-fluid .special-section .specials img {
-		height: 350px;
-		width: 380px;
+		height: 220px;
+		width: 250px;
 	}
 
+	.prime_member {
+		display: none;
+	}
 
 	/* .swiper-slide {
         margin-left: 25px;
@@ -47,6 +73,21 @@
 
 	.productinfo p {
 		font-size: 12px;
+	}
+
+	.banner-prime .container {
+		margin: 0px 180px !important;
+		/* margin-left: 50px; */
+	}
+
+	.banner-prime .container .banner-img {
+		height: 290px;
+		width: 640px;
+		background-image: url("../assets/prime_member.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+
 	}
 
 	.swiper-button-next,
@@ -91,14 +132,19 @@
 		padding: 4px 8px;
 	}
 
-	section .container-fluid .special-section .specials img.img-left {
-		margin-right: 35px;
+	.slider-container {
+		margin-top: 0px;
+	}
+
+	section .container-fluid .special-section .specials img.img-left,
+	section .container-fluid .special-section .specials img.img-right {
+		margin-right: 20px;
 	}
 
 	section .container-fluid .special-section .specials img {
-		height: 250px;
-		width: 250px;
-
+		height: 150px;
+		width: 160px;
+		border: 1px solid #000;
 	}
 
 	.left-sidebar h2,
@@ -129,9 +175,29 @@
 		font-size: 10px;
 	}
 
+	.features_items .row {
+		margin: 5px;
+		margin-left: 10px;
+	}
+
+
+
+	.features_items .row div:last-child {
+		display: none;
+	}
+
+	.banner-prime .container {
+		margin: 0px 50px !important;
+	}
+
 	.swiper-button-next {
 		height: 10px !important;
 		width: 10px !important;
+	}
+
+	.swiper-button-next:after,
+	.swiper-container-rtl .swiper-button-prev:after {
+		font-size: 15px;
 	}
 
 	.companyinfo h2,

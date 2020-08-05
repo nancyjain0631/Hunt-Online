@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Raleway:wght@400;800&display=swap');
 
 /* startttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+body,
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 body {
 
   font-family: "Lato", sans-serif;
@@ -670,11 +676,7 @@ section .container-fluid {
 
 }
 
-section .container-fluid .special-section {
-  grid-template-columns: repeat(2, 100px);
 
-
-}
 
 section .container-fluid .special-section .specials a {
   text-decoration: none;
@@ -689,7 +691,7 @@ section .container-fluid .special-section .specials img {
 
 section .container-fluid .special-section .specials img.img-left,
 section .container-fluid .special-section .specials img.img-right {
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 .category-products {
@@ -1113,6 +1115,8 @@ h2.title:before {
 
 .features_items .row {
   margin: 15px;
+  margin-left: 60px;
+
 }
 
 section .container .features_items .transparent-box a {
@@ -1386,6 +1390,21 @@ h2.title {
   border-radius: 4px 4px 0 0;
   line-height: 1.42857;
   margin-right: 0;
+}
+
+.banner-prime .container {
+  margin: 0px 2px !important;
+  /* margin-left: -20px ; */
+}
+
+.banner-prime .container .banner-img {
+  height: 320px;
+  max-width: 97vw;
+  background-image: url("../assets/prime.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
 }
 
 .recommended_items {
