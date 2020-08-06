@@ -82,6 +82,10 @@ h6 {
   background-color: #ff6666;
 }
 
+.navbar-toggle:hover {
+  background-color: #ff6666;
+}
+
 a#scrollUp {
   bottom: 0px;
   right: 10px;
@@ -1402,13 +1406,11 @@ h2.title {
 }
 
 .banner-prime .container .banner-img {
-  height: 320px;
-  max-width: 88vw !important;
-  background-image: url("../assets/prime.jpg");
+  height: 310px;
+  max-width: 98vw !important;
+  background-image: url(../assets/prime.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 .recommended_items {

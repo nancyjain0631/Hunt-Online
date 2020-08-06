@@ -11,7 +11,8 @@
 	}
 
 	.banner-prime .container {
-		margin: 0px 35px !important;
+		/* margin: 0px 0px !important; */
+		margin-left: 20px !important;
 	}
 
 	.banner-prime .container .banner-img {
