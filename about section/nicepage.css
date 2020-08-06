@@ -34197,8 +34197,18 @@ blockquote {
 }
 
 /*begin-variables base-font-size*/
-html {
+html,
+body {
   font-size: 16px;
+  overflow-x: hidden;
+
 }
 
 /*end-variables base-font-size*/
+@media (max-width:425px) {
+  .u-header {
+    background-image: none;
+    height: 100px;
+  }
+
+}

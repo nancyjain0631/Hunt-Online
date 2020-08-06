@@ -107,3 +107,10 @@
         margin-right: 0
     }
 }
+
+@media (max-width:425px) {
+    .u-section-1 .u-container-layout-1 {
+
+        margin-top: 0px;
+    }
+}
