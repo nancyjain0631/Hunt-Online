@@ -168,7 +168,18 @@
 	}
 
 	.category-products .panel-default .panel-heading .panel-title a {
+		font-size: 12px;
+	}
+
+	.panel-body ul li a {
+
 		font-size: 10px;
+
+	}
+
+	.panel-group .panel-heading+.panel-collapse .panel-body {
+
+		padding: 5px;
 	}
 
 	.category-products .badge {
@@ -323,7 +334,7 @@
 	}
 
 	section .container .row .col-sm-3 {
-		display: none;
+		/* display: none; */
 	}
 
 	.feature_items h2 .row .col-lg-3 {
