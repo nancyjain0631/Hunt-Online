@@ -385,9 +385,9 @@ img {
   min-height: auto;
 }
 
-#menu .menu-area .navbar-default .navbar-header {
-  /* margin-right: 100px; */
-}
+/* #menu .menu-area .navbar-default .navbar-header {
+  margin-right: 100px;
+} */
 
 #menu .menu-area .navbar-default .navbar-nav {
   display: inline-block;
@@ -1252,7 +1252,7 @@ h2.title {
   transition: height 500ms ease 0s;
   width: 100%;
   display: block;
-  opacity: ;
+  /* opacity: ; */
 }
 
 .single-products:hover .product-overlay {
