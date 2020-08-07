@@ -12,12 +12,12 @@
 
 	.banner-prime .container {
 		/* margin: 0px 0px !important; */
-		margin-left: 20px !important;
+		margin-left: 150px !important;
 	}
 
 	.banner-prime .container .banner-img {
 
-		width: 1320px;
+		width: 1110px;
 	}
 }
 
@@ -331,6 +331,10 @@
 		background-repeat: no-repeat;
 		border: 1px solid #000;
 
+	}
+
+	section .container .row .col-sm-3 {
+		display: block;
 	}
 
 

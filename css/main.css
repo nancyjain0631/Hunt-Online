@@ -984,7 +984,7 @@ h2.title:before {
 }
 
 .left-sidebar {
-  height: 350px;
+  max-height: 3000px;
 }
 
 .prime_member {
@@ -1401,20 +1401,22 @@ h2.title {
 }
 
 .banner-prime .container {
-  margin: 0px 5px !important;
+  margin: 0px 25px !important;
+  margin-bottom: 15px !important;
   /* margin-left: -20px ; */
 }
 
 .banner-prime .container .banner-img {
   height: 310px;
-  max-width: 98vw !important;
+  max-width: 100vw !important;
   background-image: url(../assets/prime.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
 }
 
 .recommended_items {
   overflow: hidden;
+  display: none;
 }
 
 #recommended-item-carousel .carousel-inner .item {
