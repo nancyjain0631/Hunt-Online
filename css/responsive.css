@@ -342,6 +342,10 @@
 		margin: 10px 50px;
 	}
 
+	.features_items .row div:last-child {
+		display: block !important;
+	}
+
 	/* .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12 {
 		margin: 5px 60px;
 		padding: 50px;
@@ -422,9 +426,14 @@
 		margin: 10px 35px;
 	}
 
+	.features_items .row div:last-child {
+		display: block !important;
+	}
+
 	.resp {
 		margin-left: 8rem;
 	}
+
 
 	.banner-prime {
 		display: none;
@@ -487,6 +496,10 @@
 		margin: 5px 30px;
 		height: 140px !important;
 		width: 170px !important;
+	}
+
+	.features_items .row div:last-child {
+		display: block !important;
 	}
 
 	.resp {
