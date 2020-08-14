@@ -723,54 +723,6 @@ h2.title:before {
 
 	text-transform: uppercase
 }
-
-.well {
-
-	background-color: #fff;
-
-	border: 1px solid #f7f7f0;
-
-	border-radius: 4px;
-
-	box-shadow: none;
-
-	margin-bottom: 20px;
-
-	min-height: 20px;
-
-	padding: 35px
-}
-
-.tooltip-inner {
-
-	background-color: #f66;
-
-	border-radius: 4px;
-
-	color: #fff;
-
-	max-width: 200px;
-
-	padding: 3px 8px;
-
-	text-align: center;
-
-	text-decoration: none
-}
-
-.tooltip.top .tooltip-arrow {
-
-	border-top-color: #f66;
-
-	border-width: 5px 5px 0;
-
-	bottom: 0;
-
-	left: 50%;
-
-	margin-left: -5px
-}
-
 .padding-right {
 
 	padding-right: 0
@@ -812,52 +764,6 @@ h2.title {
 	margin-bottom: 15px;
 
 	position: relative
-}
-
-.single-products {
-
-	position: relative
-}
-
-.new,
-
-.sale {
-
-	position: absolute;
-
-	top: 0;
-
-	right: 0
-}
-
-.choose {
-
-	border-top: 1px solid #f7f7f0
-}
-
-.choose ul li a {
-
-	color: #b3afa8;
-
-	font-family: Roboto, sans-serif;
-
-	font-size: 13px;
-
-	padding-left: 0;
-
-	padding-right: 0
-}
-
-.choose ul li a i {
-
-	margin-right: 5px
-}
-
-.choose ul li a:hover {
-
-	background: 0 0;
-
-	color: #f66
 }
 
 .category-tab {

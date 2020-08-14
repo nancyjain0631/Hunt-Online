@@ -272,7 +272,7 @@
 	}
 
 	#menu .menu-area .navbar-default .navbar-nav li a {
-		font-size: 12px;
+		font-size: 14px;
 		padding: 2px 8px
 	}
 
@@ -348,12 +348,12 @@
 	.aboutinfo h2,
 	.aboutinfos h2,
 	.companyinfo h1 {
-		font-size: 16px;
+		font-size: 18px;
 		margin-left: 150px
 	}
 
 	.companyinfo p {
-		font-size: 11px;
+		font-size: 13px;
 		margin: 0 30px
 	}
 
@@ -363,7 +363,7 @@
 	}
 
 	.social-links h2 {
-		font-size: 14px
+		font-size: 16px
 	}
 }
 
@@ -412,7 +412,7 @@
 	}
 
 	.companyinfo p {
-		font-size: 10px
+		font-size: 12px
 	}
 
 	.social-links {
