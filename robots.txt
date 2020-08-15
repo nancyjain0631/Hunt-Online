@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://hunt-online.in/sitemap_index.html
