@@ -134,7 +134,7 @@
 
 	.brands_products h2,
 	.left-sidebar h2 {
-		font-size: 16px
+		font-size: 18px
 	}
 
 	.left-sidebar h2:before {
@@ -151,11 +151,11 @@
 	}
 
 	.category-products .panel-default .panel-heading .panel-title a {
-		font-size: 12px
+		font-size: 15px
 	}
 
 	.panel-body ul li a {
-		font-size: 10px
+		font-size: 13px
 	}
 
 	.panel-group .panel-heading+.panel-collapse .panel-body {
@@ -222,8 +222,8 @@
 	}
 
 	.social-links a {
-		margin: 0 25px;
-		font-size: 12px
+		margin: 5px 28px;
+		font-size: 14px;
 	}
 
 	.footer-bottom p {
@@ -234,7 +234,7 @@
 @media (max-width: 425px) {
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo {
 		margin-top: 0;
-		margin-left: 100px
+		margin-left: 70px;
 	}
 
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo a {
@@ -242,8 +242,9 @@
 	}
 
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo a .img-logo {
-		height: 55px;
-		width: 55px
+		height: 70px;
+		width: 70px;
+		margin-top: -5px;
 	}
 
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p {
@@ -251,11 +252,11 @@
 	}
 
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p strong {
-		font-size: 22px
+		font-size: 25px;
 	}
 
 	#aa-header .aa-header-top .aa-header-top-area .aa-logo a p span {
-		font-size: 12px
+		font-size: 14px
 	}
 
 	#aa-header .aa-header-top .right {
@@ -273,11 +274,17 @@
 
 	#menu .menu-area .navbar-default .navbar-nav li a {
 		font-size: 14px;
-		padding: 2px 8px
+		padding: 7.4px 8px;
+	}
+
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		border-color: #e7e7e7;
+		max-height: 100vh;
 	}
 
 	section .container-fluid {
-		padding: 0 50px
+		padding: 0 50px;
 	}
 
 	.container-fluid .special-section .specials img {
@@ -358,8 +365,8 @@
 	}
 
 	.social-links {
-		margin-top: 30px;
-		margin-left: 140px
+		margin-top: 20px;
+		margin-left: 130px;
 	}
 
 	.social-links h2 {
